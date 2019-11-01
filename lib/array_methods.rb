@@ -3,6 +3,7 @@ def find_element_index(array, value_to_find)
  index < array.length do 
  puts  array[index]
    index += 1
+   return array
 end
 end
 
